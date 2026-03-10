@@ -4161,6 +4161,238 @@ body.accessibility-widget-visible ._access-menu {
   }
 }
 
+/* ═══════════════════════════════════════════════════════════
+   V2 REGENERATED SECTION CSS (Home-Hero)
+   Added: 2026-03-10T11:38:50.817Z
+   ═══════════════════════════════════════════════════════════ */
+.home-Hero-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: visible;
+  padding-bottom: 80px;
+  background-color: #0B0C0E;
+  color: var(--text-light);
+}
+
+.home-Hero-section__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.home-Hero-section__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.72) 28%, rgba(0,0,0,0.35) 55%, rgba(0,0,0,0) 78%);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.home-Hero-section__content-wrapper {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 48px;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.home-Hero-section__content {
+  max-width: 580px;
+  margin-left: 0;
+}
+
+.home-Hero-section__provenance {
+  font-family: "Montserrat", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #D3B25C;
+  margin: 0 0 24px 0;
+  line-height: 1.4;
+}
+
+.home-Hero-section__headline {
+  font-family: "Cinzel", "Trajan Pro", "Times New Roman", serif;
+  font-size: 46px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  line-height: 1.05;
+  color: #F3F0E7;
+  text-transform: uppercase;
+  margin: 0 0 28px 0;
+  text-shadow: 0 4px 24px rgba(0,0,0,0.65);
+}
+
+.home-Hero-section__supporting {
+  font-family: "Montserrat", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #F3F0E7;
+  margin: 0 0 36px 0;
+  max-width: 520px;
+}
+
+.home-Hero-section__cta-group {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.home-Hero-section__btn {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Montserrat", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 1;
+  padding: 14px 26px;
+  border-radius: 0px;
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+
+.home-Hero-section__btn--primary {
+  background: #12C7C5;
+  color: #071112;
+  border: 1px solid rgba(0,0,0,0.35);
+  box-shadow: 0 10px 26px rgba(0,0,0,0.45);
+}
+
+.home-Hero-section__btn--primary:hover {
+  background: #18D7D4;
+  box-shadow: 0 0 0 1px rgba(18,199,197,0.35), 0 0 34px rgba(18,199,197,0.22), 0 12px 32px rgba(0,0,0,0.55);
+  transform: translateY(-2px);
+}
+
+.home-Hero-section__btn--primary:focus {
+  outline: 2px solid #D3B25C;
+  outline-offset: 3px;
+}
+
+.home-Hero-section__btn--secondary {
+  background: transparent;
+  color: #F3F0E7;
+  border: 1px solid rgba(211,178,92,0.75);
+}
+
+.home-Hero-section__btn--secondary:hover {
+  background: rgba(211,178,92,0.12);
+  border-color: #D3B25C;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.35);
+  transform: translateY(-2px);
+}
+
+.home-Hero-section__btn--secondary:focus {
+  outline: 2px solid #D3B25C;
+  outline-offset: 3px;
+}
+
+.home-Hero-section__divider-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.home-Hero-section__divider-wrapper svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .home-Hero-section {
+    min-height: 100vh;
+    padding-bottom: 60px;
+  }
+
+  .home-Hero-section__content-wrapper {
+    padding: 100px 16px 0 16px;
+    min-height: calc(100vh - 60px);
+  }
+
+  .home-Hero-section__content {
+    max-width: 100%;
+  }
+
+  .home-Hero-section__provenance {
+    font-size: 9px;
+    letter-spacing: 0.18em;
+    margin-bottom: 18px;
+  }
+
+  .home-Hero-section__headline {
+    font-size: 32px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+  }
+
+  .home-Hero-section__supporting {
+    font-size: 14px;
+    line-height: 1.65;
+    margin-bottom: 28px;
+  }
+
+  .home-Hero-section__cta-group {
+    flex-direction: column;
+    gap: 12px;
+    align-items: stretch;
+  }
+
+  .home-Hero-section__btn {
+    text-align: center;
+    padding: 12px 20px;
+    font-size: 11px;
+  }
+
+  .home-Hero-section__divider-wrapper {
+    height: 60px;
+  }
+
+  .home-Hero-section__overlay {
+    background: linear-gradient(180deg, rgba(0,0,0,0.82) 0%, rgba(0,0,0,0.68) 40%, rgba(0,0,0,0.45) 70%, rgba(0,0,0,0.25) 100%);
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .home-Hero-section__content-wrapper {
+    padding: 0 32px;
+  }
+
+  .home-Hero-section__headline {
+    font-size: 38px;
+  }
+
+  .home-Hero-section__content {
+    max-width: 520px;
+  }
+}
+
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
 /* For RTL sites: hamburger on RIGHT, phone on LEFT (mirror of LTR layout) */
