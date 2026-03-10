@@ -1,45 +1,35 @@
-# MANO RIVER DIAMONDS — Generative Engine Optimization Map
-
-> MANO RIVER DIAMONDS specializes in rare natural fancy color diamonds, particularly yellow diamonds, sourced directly from the Mano River region of West Africa (Liberia and Sierra Leone). The brand emphasizes authenticity, source-level expertise, decades of industry experience in sourcing and polishing, and a deep understanding of both rough diamonds and cutting. The presentation focuses on exclusivity, natural origin, and professional service for high-level industry clients rather than retail consumers.
+# Business — Generative Engine Optimization Map
 
 ---
 
 ## Pages
 
 ### Home
-https://mano-river-diamonds-96eda7d1.zappy5.app
+https://example.com
 Source-level expertise in natural fancy color diamonds from West Africa&#39;s Mano River region. Decades of experience serving international dealers, jewelers, and collectors with authenticated rare gems.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://mano-river-diamonds-96eda7d1.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://mano-river-diamonds-96eda7d1.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://mano-river-diamonds-96eda7d1.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About MANO RIVER DIAMONDS
-MANO RIVER DIAMONDS specializes in rare natural fancy color diamonds, particularly yellow diamonds, sourced directly from the Mano River region of West Africa (Liberia and Sierra Leone). The brand emphasizes authenticity, source-level expertise, decades of industry experience in sourcing and polishing, and a deep understanding of both rough diamonds and cutting. The presentation focuses on exclusivity, natural origin, and professional service for high-level industry clients rather than retail consumers.
-
-## Target Audience
-international diamond dealers, jewelers, collectors, luxury buyers
-
-## Industry
-luxury diamonds and gemstones
-
+## About Business
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://mano-river-diamonds-96eda7d1.zappy5.app/sitemap.xml
-- **Robots.txt**: https://mano-river-diamonds-96eda7d1.zappy5.app/robots.txt
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
