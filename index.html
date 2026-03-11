@@ -556,16 +556,16 @@
 
   <nav class="navbar">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg class="hamburger-icon" width="24" height="24" viewbox="0 0 24 24" fill="none">
+    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" style="display: none;">
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
   
   <button class="phone-header-btn" aria-label="Call">
-    <svg width="20" height="20" viewbox="0 0 24 24" fill="currentColor">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
@@ -1014,22 +1014,34 @@
 </script>
   
   <main>
-    <section class="home-Hero-section" data-layout-spec="Home-Hero" data-hero-type="fullscreen-scrim" data-zappy-section="true">
-  <div class="home-Hero-section__background" style="background-image: url('assets/site-home-hero-bg.webp');  background-size: cover; background-position: center;"></div>
-  <div class="home-Hero-section__overlay"></div>
-  <div class="home-Hero-section__content-wrapper">
+    <section class="home-Hero-section" data-layout-spec="Home-Hero" data-hero-type="fullscreen-scrim" data-zappy-section="true" style="position: relative; overflow: hidden; --zappy-bg-overlay: rgba(0, 0, 0, 0.5)" id="zappy-section-1773219026372-2131" data-zappy-bg-type="video" data-zappy-bg-color="" data-zappy-bg-image="" data-zappy-bg-overlay-color="#000000" data-zappy-bg-overlay-opacity="50" data-zappy-bg-video-type="mp4" data-zappy-bg-video-url="assets/hero-video-gen-4_5-create-a-cinematic-ultra-luxury-website-hero-video--5-seconds--169-widescreen-scene-a-single-pear-shaped-fancy-vivid-yellow-diamond-resting-on-elegant-black-silk-fabric-with-subtle-gold-embro-gen-4_5-create--1773218993993.mp4">
+<div class="hero-video-background zappy-editable-video-bg" id="hero-video-bg-1773219063682" style="outline: none;">
+  <div class="hero-video-overlay" style="transition: background 0.3s; background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5));"></div>
+  <video class="hero-video" autoplay="" muted="" loop="" playsinline="">
+    <source src="/assets/hero-video-gen-4_5-create-a-cinematic-ultra-luxury-website-hero-video--5-seconds--169-widescreen-scene-a-single-pear-shaped-fancy-vivid-yellow-diamond-resting-on-elegant-black-silk-fabric-with-subtle-gold-embro-gen-4_5-create--1773219048424.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <img class="hero-video-fallback zappy-editable-image" src="/assets/site-home-hero-bg.webp" alt="Hero background" loading="lazy">
+</div><div class="zappy-section-video-bg" style="position:absolute;inset:0;z-index:0;overflow:hidden;pointer-events:none;"><div class="zappy-section-video-overlay hero-original-overlay-hidden" style="position:absolute;inset:0;z-index:1;background:rgba(0, 0, 0, 0.5);pointer-events:none;; display: none !important;"></div><video class="zappy-section-video" autoplay="" muted="" loop="" playsinline="" style="position:absolute;top:50%;left:50%;min-width:100%;min-height:100%;transform:translate(-50%, -50%);object-fit:cover;z-index:0;">
+  <source src="/assets/hero-video-gen-4_5-create-a-cinematic-ultra-luxury-website-hero-video--5-seconds--169-widescreen-scene-a-single-pear-shaped-fancy-vivid-yellow-diamond-resting-on-elegant-black-silk-fabric-with-subtle-gold-embro-gen-4_5-create--1773218993993.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video></div>
+
+  <div class="home-Hero-section__background" style="background-image: url('assets/site-home-hero-bg.webp'); background-size: cover; background-position: center; position: relative; z-index: 2"></div>
+  <div class="home-Hero-section__overlay" style="display: none" data-zappy-original-bg="hidden"></div>
+  <div class="home-Hero-section__content-wrapper" style="position: relative; z-index: 2">
     <div class="home-Hero-section__content">
       <p class="home-Hero-section__provenance">MANO RIVER REGION • NATURAL FANCY COLOR</p>
-      <h1 class="home-Hero-section__headline">Rare Natural Fancy Yellow Diamonds, Sourced at Origin.</h1>
+      
       <p class="home-Hero-section__supporting">Direct access from Liberia and Sierra Leone, guided by decades of rough-to-polish expertise and discreet service for the trade.</p>
       <div class="home-Hero-section__cta-group">
-        <a href="#contact" class="home-Hero-section__btn home-Hero-section__btn--primary">Request Allocation</a>
-        <a href="#showcase" class="home-Hero-section__btn home-Hero-section__btn--secondary">View Availability Highlights</a>
+        <a href="#contact" class="home-Hero-section__btn home-Hero-section__btn--primary" data-element-type="button" data-element-id="btn-1773219063670-99ymlluac" data-native-element="true">Request Allocation</a>
+        <a href="#showcase" class="home-Hero-section__btn home-Hero-section__btn--secondary" data-element-type="button" data-element-id="btn-1773219063670-9hhc4l2f6" data-native-element="true">View Availability Highlights</a>
       </div>
     </div>
-  </div>
-  <div class="home-Hero-section__divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 80" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+  </div><h1 class="home-Hero-section__headline" style="" data-element-id="move-1773219073189-f16pci5q">Rare Natural Fancy Yellow Diamonds, Sourced at Origin.</h1>
+  <div class="home-Hero-section__divider-wrapper" style="position: relative; z-index: 2">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="home-Hero-divider-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
           <stop offset="0%" style="stop-color:#12C7C5;stop-opacity:0.18"></stop>
@@ -1084,7 +1096,7 @@
   </div>
   
   <div class="capabilities-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 100" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="divider-fade" x1="0%" y1="0%" x2="0%" y2="100%">
           <stop offset="0%" style="stop-color:#141414;stop-opacity:1"></stop>
@@ -1092,7 +1104,7 @@
           <stop offset="100%" style="stop-color:#141414;stop-"></stop>
         </linearGradient>
         <filter id="grain-noise">
-          <feTurbulence type="fractalNoise" basefrequency="0.9" numoctaves="4" seed="2"></feTurbulence>
+          <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" seed="2"></feTurbulence>
           <feColorMatrix type="saturate" values="0"></feColorMatrix>
           <feBlend mode="multiply" in="SourceGraphic"></feBlend>
         </filter>
@@ -1135,7 +1147,7 @@
   </div>
   
   <div class="home-about-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 60" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,60 L0,42 Q12,38 24,41 Q36,44 48,40 Q60,36 72,39 Q84,42 96,38 Q108,34 120,37 Q132,40 144,36 Q156,32 168,35 Q180,38 192,34 Q204,30 216,33 Q228,36 240,32 Q252,28 264,31 Q276,34 288,30 Q300,26 312,29 Q324,32 336,28 Q348,24 360,27 Q372,30 384,26 Q396,22 408,25 Q420,28 432,24 Q444,20 456,23 Q468,26 480,22 Q492,18 504,21 Q516,24 528,20 Q540,16 552,19 Q564,22 576,18 Q588,14 600,17 Q612,20 624,16 Q636,12 648,15 Q660,18 672,14 Q684,10 696,13 Q708,16 720,12 Q732,8 744,11 Q756,14 768,10 Q780,6 792,9 Q804,12 816,8 Q828,4 840,7 Q852,10 864,6 Q876,2 888,5 Q900,8 912,4 Q924,0 936,3 Q948,6 960,2 Q972,0 984,3 Q996,6 1008,2 Q1020,0 1032,3 Q1044,6 1056,2 Q1068,0 1080,3 Q1092,6 1104,2 Q1116,0 1128,3 Q1140,6 1152,2 Q1164,0 1176,3 Q1188,6 1200,3 L1200,60 Z" fill="#EFE7D7"></path>
     </svg>
   </div>
@@ -1173,7 +1185,7 @@
   </div>
   
   <div class="home-testimonials-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 2" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 2" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="home-testimonials-prism-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
           <stop offset="0%" style="stop-color:#12C7C5;stop-opacity:1"></stop>
@@ -1237,7 +1249,7 @@
   </div>
 
   <div class="home-stats-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 80" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,80 L0,30 L300,30 L300,45 L600,45 L600,60 L900,60 L900,70 L1200,70 L1200,80 Z" fill="#EFE7D7"></path>
       <path d="M300,30 L300,45 L600,45 L600,60 L900,60 L900,70 L1200,70" stroke="var(--accent)" stroke-width="1" fill="#EFE7D7" opacity="0.4"></path>
     </svg>
@@ -1343,7 +1355,7 @@
   </div>
 
   <div class="home-showcase-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 120" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="home-showcase-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
           <stop offset="0%" style="stop-color:#0B0C0E;stop-opacity:0.3"></stop>
@@ -1351,7 +1363,7 @@
           <stop offset="100%" style="stop-color:#0B0C0E;stop-opacity:1"></stop>
         </linearGradient>
         <filter id="home-showcase-glow">
-          <feGaussianBlur stddeviation="2" result="coloredBlur"></feGaussianBlur>
+          <feGaussianBlur stdDeviation="2" result="coloredBlur"></feGaussianBlur>
           <feMerge>
             <feMergeNode in="coloredBlur"></feMergeNode>
             <feMergeNode in="SourceGraphic"></feMergeNode>
